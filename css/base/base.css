@@ -40,8 +40,23 @@ body {
 }
 
 :root {
-    --primary-color: #36f;
+    --primary-color: #ffffff;
+    --main-text: #777777;
+    --dark-text: #222222;
+    --active: #8490ff;
+    --background-grey: #f9f9ff;
+    --background-footer: #04091e;
+    --background-gradient: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
 .center {
     text-align: center;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.main-text {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
 }
