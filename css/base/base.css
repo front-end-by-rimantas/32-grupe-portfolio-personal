@@ -1,44 +1,47 @@
 @font-face {
-  font-family: Poppins;
-  src: url(../../fonts/Poppins/Roboto-Regular.ttf);
-  font-weight: normal;
-  font-style: normal;
+    font-family: Poppins;
+    src: url(../../fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-  font-family: Poppins;
-  src: url(../../fonts/Poppins/Poppins-Light.ttf);
-  font-weight: normal;
-  font-style: normal;
+    font-family: Poppins;
+    src: url(../../fonts/Poppins/Poppins-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-  font-family: Poppins;
-  src: url(../../fonts/Poppins/Poppins-Medium.ttf);
-  font-weight: normal;
-  font-style: normal;
+    font-family: Poppins;
+    src: url(../../fonts/Poppins/Poppins-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-  font-family: Poppins;
-  src: url(../../fonts/Poppins/Poppins-SemiBold.ttf);
-  font-weight: bold;
-  font-style: normal;
+    font-family: Poppins;
+    src: url(../../fonts/Poppins/Poppins-SemiBold.ttf);
+    font-weight: bold;
+    font-style: normal;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body,
 body * {
-  margin: 0;
-  padding: 0;
-  vertical-align: top;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
-  --primary-color: #36f;
+    --primary-color: #36f;
+}
+.center {
+    text-align: center;
 }
