@@ -55,7 +55,7 @@ body {
     text-transform: uppercase;
 }
 .main-text {
-    color: #777777;
+    color: var(--main-text);
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
