@@ -1,3 +1,28 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../../fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../../fonts/Poppins/Poppins-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../../fonts/Poppins/Poppins-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../../fonts/Poppins/Poppins-SemiBold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,10 +36,27 @@ body * {
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-        sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
-    --primary-color: #36f;
+    --primary-color: #ffffff;
+    --main-text: #777777;
+    --dark-text: #222222;
+    --active: #8490ff;
+    --background-grey: #f9f9ff;
+    --background-footer: #04091e;
+    --background-gradient: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+.center {
+    text-align: center;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.main-text {
+    color: var(--main-text);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
 }
