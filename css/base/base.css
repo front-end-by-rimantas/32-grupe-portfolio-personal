@@ -60,3 +60,8 @@ body {
     font-weight: 300;
     line-height: 1.625em;
 }
+
+h1,
+p {
+    background-color: yellow;
+}
