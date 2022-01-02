@@ -40,6 +40,9 @@
 .navig > a:hover {
     color: var(--active);
 }
+.navig > a > .fa {
+    margin-top: 3px;
+}
 
 .header nav {
     display: none;
