@@ -130,7 +130,7 @@ header .hamburger {
     font-size: 12px;
     font-weight: 500;
     text-decoration: none;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     text-decoration: none;
     color: var(--dark-text);
 }
@@ -170,6 +170,9 @@ header .hamburger {
 /* latest posts end */
 
 /* images logos start */
+.labels-gallery {
+    background-color: var(--background-gradient);
+}
 /* images logos end */
 
 /* footer start */
