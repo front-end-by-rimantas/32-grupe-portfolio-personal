@@ -7,7 +7,6 @@
     color: var(--primary-color);
     border: 1px solid var(--background-gradient);
     cursor: pointer;
-    transition: all 0.3s;
 }
 
 .btn:hover {
