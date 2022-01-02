@@ -39,7 +39,7 @@
     margin-bottom: 30px;
 }
 .about-text {
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 @media (max-width: 992px) {
     .about .personal {
@@ -47,11 +47,11 @@
     }
     .about > .row {
         justify-content: center;
-     }
+    }
     .about > .row > img {
         display: flex;
         align-self: flex-end;
-     }
+    }
 }
 
 /* about me end */
@@ -75,8 +75,43 @@
 /* latest posts end */
 
 /* images logos start */
+
+.start {
+    background-color: var(--active);
+}
+.start > .row > .col-12 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff9;
+}
+
+.start > .row > .col-12 > img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    .start > .row > .col-12 {
+        overflow: hidden;
+        column-gap: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .start > .row > .col-12 {
+        overflow: hidden;
+        column-gap: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .start > .row > .col-12 {
+        overflow: hidden;
+        column-gap: 60px;
+    }
+}
+
 /* images logos end */
 
 /* footer start */
 /* footer end */
-© 2021 GitHub, Inc.
