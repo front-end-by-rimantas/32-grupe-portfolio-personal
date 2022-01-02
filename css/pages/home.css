@@ -11,12 +11,98 @@
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
 /* header start */
+.header {
+    position: sticky;
+    top: 0;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: var(--primary-color);
+}
+.header .col-12 {
+    display: flex;
+    justify-content: space-between;
+}
+.navig {
+    text-transform: uppercase;
+}
+.navig > a {
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #222;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.navig > a:first-child {
+    color: var(--active);
+}
+.navig > a:hover {
+    color: var(--active);
+}
+.navig > a > .fa {
+    margin-top: 3px;
+}
+
+.header nav {
+    display: none;
+}
+header .hamburger {
+    font-size: 30px;
+}
+
+@media (min-width: 992px) {
+    .header nav {
+        display: block;
+    }
+    header .hamburger {
+        display: none;
+    }
+}
+
 /* header end */
 
 /* this is me start */
 /* this is me end */
 
 /* about me start */
+
+.about > .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about > .row > img {
+    max-width: 100vh;
+    height: auto;
+}
+.about .about-me {
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.about .personal {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.about-text {
+    margin-bottom: 30px;
+}
+@media (max-width: 992px) {
+    .about .personal {
+        font-size: 20px;
+    }
+    .about > .row {
+        justify-content: center;
+    }
+    .about > .row > img {
+        display: flex;
+        align-self: flex-end;
+    }
+}
+
 /* about me end */
 
 /* services start */
@@ -26,6 +112,52 @@
 /* stats end */
 
 /* our latest featured projects start */
+.projects {
+    padding-bottom: 70px;
+}
+.our-projects {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.projects-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.projects-nav > a {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 40px; 
+    text-decoration: none;
+    color: var(--dark-text);
+}
+.projects-nav > a.active {
+    color: var(--active);
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 35px;
+}
+.one-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.img-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.one-portfolio > img {
+    width: 100%;
+}
+
 /* our latest featured projects end */
 
 /* clients feedback start */
@@ -42,4 +174,3 @@
 
 /* footer start */
 /* footer end */
-© 2021 GitHub, Inc.
