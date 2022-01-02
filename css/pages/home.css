@@ -63,6 +63,52 @@
 /* stats end */
 
 /* our latest featured projects start */
+.projects {
+    padding-bottom: 70px;
+}
+.our-projects {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.projects-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.projects-nav > a {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 40px; 
+    text-decoration: none;
+    color: var(--dark-text);
+}
+.projects-nav > a.active {
+    color: var(--active);
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 35px;
+}
+.one-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.img-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.one-portfolio > img {
+    width: 100%;
+}
+
 /* our latest featured projects end */
 
 /* clients feedback start */
