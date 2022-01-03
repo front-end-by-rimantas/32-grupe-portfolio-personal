@@ -176,4 +176,93 @@ header .hamburger {
 /* images logos end */
 
 /* footer start */
+
+.footer {
+    background-color: var(--background-footer);
+    padding: 120px 0;
+}
+.footer > .row > .col-md-5,
+.col-md-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.col-md-5 > h1 {
+    color: white;
+    font-size: 18px;
+}
+.col-md-5 > p > .fa {
+    margin-top: 3px;
+    font-size: 14px;
+}
+.col-md-5 > p > a {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--active);
+}
+.col-md-5 > .input-group {
+    display: flex;
+    align-items: stretch;
+}
+.form-control {
+    border: none;
+    width: 80%;
+    font-weight: 300;
+    background: #f9f9ff;
+    padding: 13px;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: normal;
+    color: #222;
+}
+.col-md-5 > .input-group {
+    border: none;
+}
+
+.col-md-5 > .input-group > .fa {
+    font-size: 13px;
+    line-height: inherit;
+    text-decoration: none;
+    background-color: var(--active);
+    padding: 13px 20px;
+    color: white;
+}
+.col-md-2 > h1 {
+    color: white;
+    font-size: 18px;
+}
+.col-md-2 > p {
+    color: #777777;
+    font-size: 14px;
+}
+.col-md-2 > .socials > a {
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+}
+.col-md-2 > .socials > a:hover {
+    color: var(--active);
+}
+
+.col-md-5 > p {
+    color: #777777;
+    font-size: 14px;
+}
+
+@media (max-width: 992px) {
+    .col-md-5 {
+        width: 100%;
+    }
+    .col-md-5 > h1 {
+        margin-top: 20px;
+    }
+
+    .col-md-2 {
+        width: 100%;
+    }
+    .col-md-2 > h1 {
+        margin-top: 20px;
+    }
+}
+
 /* footer end */
