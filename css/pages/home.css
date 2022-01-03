@@ -170,9 +170,43 @@ header .hamburger {
 /* latest posts end */
 
 /* images logos start */
-.labels-gallery {
-    background-color: var(--background-gradient);
+
+
+.start {
+    background-color: var(--active);
 }
+.start > .row > .col-12 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff9;
+}
+
+.start > .row > .col-12 > img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    .start > .row > .col-12 {
+        overflow: hidden;
+        column-gap: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .start > .row > .col-12 {
+        overflow: hidden;
+        column-gap: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .start > .row > .col-12 {
+        overflow: hidden;
+        column-gap: 60px;
+    }
+}
+
 /* images logos end */
 
 /* footer start */
