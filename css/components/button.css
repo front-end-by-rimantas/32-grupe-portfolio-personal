@@ -1,0 +1,14 @@
+.btn {
+    padding: 0.8em 2.2em;
+    font-size: 14px;
+    line-height: 3em;
+    text-decoration: none;
+    background: var(--background-gradient);
+    color: var(--primary-color);
+    border: 1px solid var(--background-gradient);
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 20px 20px #dcdfff;
+}
