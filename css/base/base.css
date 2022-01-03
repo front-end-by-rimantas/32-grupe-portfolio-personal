@@ -60,3 +60,16 @@ body {
     font-weight: 300;
     line-height: 1.625em;
 }
+.section-title {
+    font-size: 36px;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.section-description {
+    color: var(--main-text);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
