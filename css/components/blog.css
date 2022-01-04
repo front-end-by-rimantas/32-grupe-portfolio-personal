@@ -1,0 +1,28 @@
+.one-blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foto-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foto-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.one-blog .photo {
+    width: 100%;
+}
+.face-img {
+    width: 40px;
+    margin-top: 10px;
+}
+.foto-information .name {
+    float: left;
+}

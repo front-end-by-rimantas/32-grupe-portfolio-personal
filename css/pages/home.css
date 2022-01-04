@@ -6,7 +6,9 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /* components */
+@import '../components/blog.css';
 @import '../components/button.css';
+@import '../components/services.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
@@ -166,9 +168,9 @@ header .hamburger {
     position: relative;
 }
 
-.section-description {
+/* .section-description {
     margin-bottom: 100px;
-}
+} */
 .client {
     margin-top: 80px;
 }
