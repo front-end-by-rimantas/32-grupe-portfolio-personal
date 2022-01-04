@@ -161,6 +161,86 @@ header .hamburger {
 /* our latest featured projects end */
 
 /* clients feedback start */
+.feedback {
+    background-color: var(--background-grey);
+    position: relative;
+}
+
+.section-description {
+    margin-bottom: 100px;
+}
+.client {
+    margin-top: 80px;
+}
+.first-column {
+    display: inline-grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 0;
+    height: 220px;
+    background-color: var(--primary-color);
+}
+.second-column {
+    display: inline-grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 0;
+    height: 200px;
+    background-color: var(--primary-color);
+}
+.comments {
+    margin-top: 20px;
+    margin-right: 28px;
+}
+.name {
+    margin-top: 10px;
+    font-size: 17px;
+}
+.name:hover {
+    color: var(--active);
+    cursor: pointer;
+}
+.profesion {
+    margin-top: 7px;
+}
+.harriet,
+.carolyn {
+    width: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.button-up-down {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px;
+    position: absolute;
+    transform: translateX(1320px);
+    top: 360px;
+}
+.button-up,
+.button-down {
+    padding: 16px 20px;
+    color: var(--main-text);
+    font-style: normal;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 0 0 40px var(--background-grey);
+}
+.button-up:hover {
+    background-color: var(--active);
+    color: var(--primary-color);
+}
+.button-down:hover {
+    background-color: var(--active);
+    color: var(--primary-color);
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+
 /* clients feedback end */
 
 /* choose your plan start */
@@ -170,7 +250,6 @@ header .hamburger {
 /* latest posts end */
 
 /* images logos start */
-
 
 .start {
     background-color: var(--active);
