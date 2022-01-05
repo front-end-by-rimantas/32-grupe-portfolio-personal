@@ -63,6 +63,18 @@ header .hamburger {
 /* header end */
 
 /* this is me start */
+.bg-color {
+    background-color: var(--background-grey);
+}
+
+.row-this-me {
+    padding-top: 120px;
+}
+
+.name-me {
+    font-size: 60px;
+    padding: 20px 0;
+}
 /* this is me end */
 
 /* about me start */
@@ -141,7 +153,7 @@ header .hamburger {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 35px;
 }
 .one-portfolio {
