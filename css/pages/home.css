@@ -121,6 +121,17 @@ header .hamburger {
 /* services end */
 
 /* stats start */
+.bg-color-stats {
+    padding: 120px 0;
+    background: linear-gradient(90deg, #8490ff 0%, #62bdfc 100%);
+}
+.center > .font-color > *,
+div {
+    color: var(--primary-color);
+}
+.font-color > .col-md-6 > h1 {
+    font-size: 2.5em;
+}
 /* stats end */
 
 /* our latest featured projects start */
