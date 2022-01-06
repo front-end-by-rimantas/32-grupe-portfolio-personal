@@ -42,8 +42,7 @@
 }
 .container > .row > [class*='col-'] {
     float: left;
-    margin-left: 0 var(--half-gap);
-    margin-right: 0 var(--half-gap);
+    margin: 0 var(--half-gap);
 }
 .container > .row > .col-1 {
     width: var(--col-1);

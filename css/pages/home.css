@@ -6,6 +6,7 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /* components */
+@import '../components/blog.css';
 @import '../components/button.css';
 @import '../components/services.css';
 
@@ -189,11 +190,6 @@ div {
     background-color: var(--background-grey);
     position: relative;
 }
-/* .section-description {
-    margin-bottom: 100px; */
-
-/* .section-description {
-    margin-bottom: 100px; */
 
 .client {
     margin-top: 80px;
