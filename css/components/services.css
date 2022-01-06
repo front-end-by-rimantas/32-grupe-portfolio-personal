@@ -20,10 +20,7 @@
     color: var(--dark-text);
     transition: all 0.3s;
 }
-
-.one-service > a:hover {
-    color: var(--active);
-}
-.one-service > i:hover {
+.one-service:hover > a,
+.one-service:hover > i {
     color: var(--active);
 }
