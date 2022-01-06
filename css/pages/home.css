@@ -188,7 +188,7 @@ div {
 /* clients feedback start */
 .feedback {
     background-color: var(--background-grey);
-    position: relative;
+    /* position: relative; */
 }
 
 .client {
@@ -205,7 +205,7 @@ div {
     display: inline-grid;
     grid-template-columns: 100px 1fr;
     grid-template-rows: 0;
-    height: 200px;
+    height: 220px;
     background-color: var(--primary-color);
 }
 .comments {
@@ -231,11 +231,11 @@ div {
 }
 .button-up-down {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2px;
-    position: absolute;
-    transform: translateX(1320px);
-    top: 360px;
+    /* position: absolute; */
+    /* transform: translateX(1320px); */
+    /* top: 360px; */
 }
 .button-up,
 .button-down {
