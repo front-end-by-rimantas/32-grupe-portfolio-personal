@@ -254,9 +254,45 @@ header .hamburger {
     display: flex;
     flex: 1;
 }
+
 .diffirent-plans {
     background-color: #f9f9ff;
     text-align: center;
+}
+
+.diffirent-plans:hover {
+    background-color: var(--active);
+}
+
+.bottom-part > .button-buy-now > .buy-now {
+    display: none;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
+    background-color: #f9f9ff;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.diffirent-plans:hover > .bottom-part > .button-buy-now > .price {
+    display: none;
+}
+.diffirent-plans:hover > .bottom-part > .button-buy-now > .buy-now {
+    display: block;
+}
+.diffirent-plans:hover > .top-part > .plan-number {
+    color: #f9f9ff;
+}
+.diffirent-plans:hover > .top-part > .plan-title {
+    color: #eee;
+}
+.diffirent-plans:hover > .top-part > .plan-purpose {
+    color: #f9f9ff;
+}
+.diffirent-plans:hover > .package-list > .plan-list > li {
+    color: #f9f9ff;
 }
 
 .top-part > .plan-number {
@@ -271,6 +307,9 @@ header .hamburger {
     margin-right: auto;
     margin-top: 70px;
     margin-bottom: 70px;
+}
+.top-part > .plan-title {
+    margin-bottom: 10px;
 }
 .top-part > .plan-purpose {
     margin-bottom: 20px;
