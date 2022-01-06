@@ -194,7 +194,7 @@ div {
 
 /* .section-description {
     margin-bottom: 100px; */
-}
+
 .client {
     margin-top: 80px;
 }
@@ -270,6 +270,48 @@ div {
 /* clients feedback end */
 
 /* choose your plan start */
+.section-descriptionn {
+    margin-bottom: 50px;
+}
+.plans-title {
+    display: flex;
+    flex: 1;
+}
+.diffirent-plans {
+    background-color: #f9f9ff;
+    text-align: center;
+}
+
+.top-part > .plan-number {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: 300;
+    box-shadow: 0 0 0 30px rgb(226, 227, 241);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.top-part > .plan-purpose {
+    margin-bottom: 20px;
+}
+.package-list > .plan-list > li {
+    list-style: none;
+    padding: 10px;
+    border-top: 1px solid #eee;
+}
+.package-list > .plan-list > li:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.bottom-part > .button-buy-now > .price {
+    margin-top: 30px;
+    font-size: 36px;
+}
+
 /* choose your plan end */
 
 /* latest posts start */
