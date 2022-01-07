@@ -6,6 +6,7 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /* components */
+@import '../components/blog.css';
 @import '../components/button.css';
 @import '../components/services.css';
 
@@ -126,8 +127,7 @@ header .hamburger {
     padding: 120px 0;
     background: linear-gradient(90deg, #8490ff 0%, #62bdfc 100%);
 }
-.center > .font-color > *,
-div {
+.bg-color-stats > .font-color > .fonto-color {
     color: var(--primary-color);
 }
 .font-color > .col-md-6 > h1 {
@@ -189,11 +189,6 @@ div {
     background-color: var(--background-grey);
     position: relative;
 }
-/* .section-description {
-    margin-bottom: 100px; */
-
-/* .section-description {
-    margin-bottom: 100px; */
 
 .client {
     margin-top: 80px;
@@ -277,9 +272,45 @@ div {
     display: flex;
     flex: 1;
 }
+
 .diffirent-plans {
     background-color: #f9f9ff;
     text-align: center;
+}
+
+.diffirent-plans:hover {
+    background-color: var(--active);
+}
+
+.bottom-part > .button-buy-now > .buy-now {
+    display: none;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
+    background-color: #f9f9ff;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.diffirent-plans:hover > .bottom-part > .button-buy-now > .price {
+    display: none;
+}
+.diffirent-plans:hover > .bottom-part > .button-buy-now > .buy-now {
+    display: block;
+}
+.diffirent-plans:hover > .top-part > .plan-number {
+    color: #f9f9ff;
+}
+.diffirent-plans:hover > .top-part > .plan-title {
+    color: #eee;
+}
+.diffirent-plans:hover > .top-part > .plan-purpose {
+    color: #f9f9ff;
+}
+.diffirent-plans:hover > .package-list > .plan-list > li {
+    color: #f9f9ff;
 }
 
 .top-part > .plan-number {
@@ -294,6 +325,9 @@ div {
     margin-right: auto;
     margin-top: 70px;
     margin-bottom: 70px;
+}
+.top-part > .plan-title {
+    margin-bottom: 10px;
 }
 .top-part > .plan-purpose {
     margin-bottom: 20px;
