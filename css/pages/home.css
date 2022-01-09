@@ -280,6 +280,7 @@ header .hamburger {
 
 .diffirent-plans:hover {
     background-color: var(--active);
+    transform: scale(1.1);
 }
 
 .bottom-part > .button-buy-now > .buy-now {
