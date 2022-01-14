@@ -187,7 +187,7 @@ header .hamburger {
 /* clients feedback start */
 .feedback {
     background-color: var(--background-grey);
-    position: relative;
+    /* position: relative; */
 }
 
 .client {
@@ -204,7 +204,7 @@ header .hamburger {
     display: inline-grid;
     grid-template-columns: 100px 1fr;
     grid-template-rows: 0;
-    height: 200px;
+    height: 220px;
     background-color: var(--primary-color);
 }
 .comments {
@@ -230,11 +230,11 @@ header .hamburger {
 }
 .button-up-down {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2px;
-    position: absolute;
-    transform: translateX(1320px);
-    top: 360px;
+    /* position: absolute; */
+    /* transform: translateX(1320px); */
+    /* top: 360px; */
 }
 .button-up,
 .button-down {
@@ -280,6 +280,7 @@ header .hamburger {
 
 .diffirent-plans:hover {
     background-color: var(--active);
+    transform: scale(1.1);
 }
 
 .bottom-part > .button-buy-now > .buy-now {
